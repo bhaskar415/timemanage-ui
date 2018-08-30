@@ -2,7 +2,7 @@ var client = require('./esConnection.js');
 
 client.index({  
   index: 'time',
-  type: 'task',
+  type: 'tags',
   body:	{ "taskName": "Task 6" }
 
 },function(err,resp,status) {
